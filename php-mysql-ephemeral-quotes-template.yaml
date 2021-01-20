@@ -18,34 +18,8 @@ metadata:
       in non-persistent storage, so this configuration should be used for experimental
       purposes only.
     template.openshift.io/provider-display-name: Red Hat Training
-  creationTimestamp: "2021-01-18T17:26:40Z"
-  managedFields:
-  - apiVersion: template.openshift.io/v1
-    fieldsType: FieldsV1
-    fieldsV1:
-      f:labels:
-        .: {}
-        f:template: {}
-      f:message: {}
-      f:metadata:
-        f:annotations:
-          .: {}
-          f:description: {}
-          f:iconClass: {}
-          f:openshift.io/display-name: {}
-          f:tags: {}
-          f:template.openshift.io/long-description: {}
-          f:template.openshift.io/provider-display-name: {}
-      f:objects: {}
-      f:parameters: {}
-    manager: oc
-    operation: Update
-    time: "2021-01-18T17:26:40Z"
   name: php-mysql-ephemeral
   namespace: sallivan80-common
-  resourceVersion: "102675045"
-  selfLink: /apis/template.openshift.io/v1/namespaces/sallivan80-common/templates/php-mysql-ephemeral
-  uid: a288f2fd-79ca-41c6-8c21-533fc79305f2
 objects:
 - apiVersion: v1
   kind: Secret
